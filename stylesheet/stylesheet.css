@@ -1,0 +1,283 @@
+/* HOME */
+
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400);
+
+html {
+  overflow-x: hidden;
+}
+
+body * {
+  font-family: "PlayFair Display", "Open Sans";
+  color: black;
+}
+
+* after,
+before {
+  margin: 0 auto;
+}
+
+main {
+  margin: 0 auto;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+}
+
+/***** MENU *****/
+
+.menu {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  max-height: 0;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+  position: relative;
+}
+
+.menu ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 75px;
+  padding: 10px 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+.menu a:hover {
+  border-bottom: solid 2px darkgrey;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+}
+
+.menu li:hover ul {
+  visibility: visible;
+  display: block;
+}
+
+.menu ul ul li a {
+  font-size: 15px;
+  color: black;
+  background-color: white;
+}
+
+.nav {
+  text-align: center;
+  height: 70px;
+}
+
+.label_toggle {
+  font-size: 42px;
+  width: 42px;
+  margin: 0 auto;
+  display: none;
+  line-height: 70px;
+}
+
+input#toggle {
+  display: none;
+}
+
+/***** ASIDE *****/
+
+aside {
+  box-sizing: border-box;
+  text-align: center;
+  width: 25%;
+  height: auto;
+  float: right;
+}
+
+.aside_photo {
+  width: 200px;
+  height: 200px;
+  clear: both;
+  border-radius: 50%;
+}
+
+.fa {
+  font-size: 50px;
+  padding: 5px;
+  width: 33px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  transition: ease-out 0.5s;
+}
+
+.social_media_icons {
+  text-align: center;
+}
+
+.hr_mobile {
+  visibility: hidden;
+}
+
+/***** MAIN CONTENT *****/
+
+article,
+section {
+  width: 70%;
+  text-align: center;
+}
+
+.article_image {
+  width: 100%;
+  height: 500px;
+  margin-top: 15px;
+}
+
+.article_image:hover {
+  opacity: 0.7;
+  transition: ease-out 0.5s;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/***** CONTACT *****/
+
+button {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10%;
+  border-style: none;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: darkgrey;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+}
+
+form input,
+form textarea {
+  width: 80%;
+  border: 1px solid grey;
+}
+
+/***** ABOUT *****/
+
+.about_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.button_cv {
+  width: 150px;
+  height: 70px;
+}
+
+/***** CURRICULUM PAGINA *****/
+
+h3,
+.p_curriculum {
+  width: 48%;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.employement {
+  box-sizing: border-box;
+  width: 40%;
+  float: right;
+  border: black solid 2px;
+}
+
+/***** PORTFOLIO PAGES *****/
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio_box img {
+  display: block;
+  width: 100%;
+}
+
+.portfolio_box img:hover {
+  opacity: 0.7;
+  transition: ease-out 0.5s;
+}
+
+.portfolio_box {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  margin: 15px 22px;
+}
+
+.portfolio_box .fa {
+  padding: 10px 20px;
+}
+
+h4 {
+  background-color: black;
+  color: white;
+  padding: 10px 0px;
+  margin: 0;
+  width: 100%;
+  height: 20%;
+}
+
+/***** BLOG *****/
+
+.blog {
+  width: 100%;
+}
+
+.article_blog {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}

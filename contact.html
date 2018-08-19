@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <link rel="stylesheet" href="stylesheet/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+        <div class="header_center">
+                <header>
+                    <a href="index.html">
+                        <img class="logo" alt="logo" src="images/logo.jpg">
+                    </a>
+        
+                    <div class="nav">
+        
+                        <div class="toggle-menu">
+                            <label for="toggle" class="label_toggle">&#9776;</label>
+                            <input type="checkbox" id="toggle">
+        
+                            <div class="menu">
+                                <ul>
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Portfolio</a>
+                                        <ul>
+                                            <li>
+                                                <a href="websites.html">Websites</a>
+                                            </li>
+                                            <li>
+                                                <a href="projects.html">Projects</a>
+                                            </li>
+                                            <li>
+                                                <a href="curriculum.html">Curriculum</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="blog.html">Blog</a>
+                                        <li>
+                                            <a href="about.html">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </div>
+                </header>
+            </div>
+    <main>
+
+        <hr>
+        <h1>DESIGN SMPL</h1>
+        <p>Think simple. Think Different.</p>
+        <hr>
+
+
+        <aside>
+            <h2 class="aside_heading">Contact</h2>
+            <p class="aside_text">Street 524</p>
+            <p class="aside_text">City 5482 HA</p>
+            <p class="aside_text">Country</p>
+
+            <h2 class="aside_heading">Social Media</h2>
+
+            <div class="social_media_icons">
+                <a href="#" class="fa fa-facebook fa-2x"></a>
+                <a href="#" class="fa fa-twitter fa-2x"></a>
+                <a href="#" class="fa fa-instagram fa-2x"></a>
+                <a href="#" class="fa fa-pinterest fa-2x"></a>
+            </div>
+        </aside>
+
+        <section>
+            <h2>Send me an e-mail:</h2>
+
+            <form id="myform" action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
+                <div class="col-25">
+                    <label>Name *</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="name" size="50" form="myform" required>
+                </div>
+                <br>
+                <br>
+
+                <div class="col-25">
+                    <label>E-mail adress*</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" size="50" name="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" form="myform" required>
+                </div>
+                <br>
+                <br>
+
+                <div class="col-25">
+                    <label>Subject *</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="subject" required>
+                </div>
+                <br>
+                <br>
+
+                <div class="col-25">
+                    <label>Message *</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="textarea" name="message" rows="5"></textarea>
+                </div>
+            </form>
+
+            <button type="submit" value="Submit" form="myform">Submit</button>
+        </section>
+
+
+
+        <hr>
+
+    </main>
+
+    <footer>
+        <p>&copy; SMPL DESIGN</p>
+        <p>Theme designed by Bianca</p>
+    </footer>
+
+</body>
+
+</html>
